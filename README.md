@@ -30,5 +30,5 @@ make
 <h2>Capture Stream</h2>
 <p>Check your camera ip and open vlc or any media player </p>
 <pre>
-tcp://<your camera ip>:8080
+tcp://your camera ip:8080
 </pre>
