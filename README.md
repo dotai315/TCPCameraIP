@@ -27,3 +27,8 @@ v4l2-ctl --list-formats
 make
 </pre>
 <p>The binary file will apear in bin directory</p>
+<h2>Capture Stream</h2>
+<p>Check your camera ip and open vlc or any media player </p>
+<pre>
+tcp://<your camera ip>:8080
+</pre>
