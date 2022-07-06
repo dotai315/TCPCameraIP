@@ -7,3 +7,6 @@
 <img src="https://user-images.githubusercontent.com/57071897/177499589-b503afff-8bd5-40f4-a819-8d2d36845e00.png"></img>
 </ol>
 <h2> Software</h2>
+<pre>
+sudo apt-get install -y libv4l-dev v4l2-utils 
+</pre>
