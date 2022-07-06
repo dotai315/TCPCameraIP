@@ -8,5 +8,10 @@
 </ol>
 <h2> Software</h2>
 <pre>
-sudo apt-get install -y libv4l-dev v4l2-utils 
+sudo apt-get install -y libv4l-dev v4l2-utils make built-essentials pkg-config
+</pre>
+<p> Clone this repository </p>
+<pre>
+make dir
+make
 </pre>
