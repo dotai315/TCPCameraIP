@@ -13,5 +13,17 @@ sudo apt-get install -y libv4l-dev v4l2-utils make built-essentials pkg-config
 <p> Clone this repository </p>
 <pre>
 make dir
+</pre>
+<p>Check device file with v4l2-utils</p>
+<pre>
+v4l2-ctl --list-devices
+</pre>
+<p>Check pixel format which camera support</p>
+<pre>
+v4l2-ctl --list-formats
+</pre>
+<p>After check device file and pixel format then change my source code suitable your project and make to generate binary file</p>
+<pre>
 make
 </pre>
+<p>The binary file will apear in bin directory</p>
